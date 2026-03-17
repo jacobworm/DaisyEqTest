@@ -13,10 +13,10 @@ int main(){
 // USER PARAMETERS::::::::::::::::::::::
 // band 0 is low shelving, band 5 i high shelving
 
-    short band = 1;
-    float gain_db = 6;
-    float freq_hz = 1000;
-    float q_value = 2;
+    short band = 5;
+    float gain_db = -6;
+    float freq_hz = 8000;
+    float q_value = 1;
 // Setting equalizer
     equalizer.setParameter(band,PM_GAIN,gain_db);
     equalizer.setParameter(band,PM_FREQ,freq_hz);
